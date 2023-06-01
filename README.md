@@ -14,3 +14,9 @@ Here's a brief explanation of what this code does:
     TSharedPtr<class FUICommandList> PluginCommands: This data member is used to store the plugin's commands. These commands can be used to interact with the plugin in Unreal Engine's editor.
 
 Please note that this is a basic design and might need to be adjusted based on your specific needs and the actual implementation of the BlueprintReader class.
+
+## For BlueprintModifier.h
+
+The BlueprintModifier.h file should declare a class BlueprintModifier that provides functions for modifying Blueprints. This class should have a function for receiving a Blueprint from the Unreal Engine plugin, a function for sending a modified Blueprint back to the Unreal Engine plugin, and functions for performing various modifications on a Blueprint.
+
+This is a very basic starting point for your BlueprintModifier.h file. As you develop your plugin, you would likely need to add more code to this file to implement the specific modifications that you want to perform on Blueprints.
