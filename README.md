@@ -20,3 +20,14 @@ Please note that this is a basic design and might need to be adjusted based on y
 The BlueprintModifier.h file should declare a class BlueprintModifier that provides functions for modifying Blueprints. This class should have a function for receiving a Blueprint from the Unreal Engine plugin, a function for sending a modified Blueprint back to the Unreal Engine plugin, and functions for performing various modifications on a Blueprint.
 
 This is a very basic starting point for your BlueprintModifier.h file. As you develop your plugin, you would likely need to add more code to this file to implement the specific modifications that you want to perform on Blueprints.
+
+## For Commands.h
+The Commands.h file is typically used to define commands that can be executed in the Unreal Editor, such as commands to open a plugin's UI or to perform a specific action. These commands are usually implemented using Unreal's TCommands class.
+
+In this template:
+
+    FChatGPT_UE_PluginCommands is the class that defines your plugin's commands. It inherits from TCommands<FChatGPT_UE_PluginCommands>, which is a template class for creating command sets in Unreal.
+
+    RegisterCommands() is a function that you'll need to implement in your ChatGPT_UE_PluginCommands.cpp file. This function should register each command with the Unreal Editor.
+
+    MyCommand1 and MyCommand2 are example commands. You should replace these with the actual commands for your plugin.
