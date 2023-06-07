@@ -1,5 +1,8 @@
 # chatgpt_ue_plugin
 
+NOTE: This is a test of taking ChatGPT and having it create an Unreal Engine plugin. If you come across this repo it's most likely un-usable trash. I'm just testing to see what I get from prompts to ChatGPT.
+
+
 ## For BlueprintUe.h 
 Here's a brief explanation of what this code does:
 
