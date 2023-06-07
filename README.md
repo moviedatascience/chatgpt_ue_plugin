@@ -2,6 +2,38 @@
 
 NOTE: This is a test of taking ChatGPT and having it create an Unreal Engine plugin. If you come across this repo it's most likely un-usable trash. I'm just testing to see what I get from prompts to ChatGPT.
 
+Project Structure:
+
+ChatGPT_UE_Plugin
+│
+├── Source
+│   │
+│   └── ChatGPT_UE_Plugin
+│       │
+│       ├── Public
+│       │   ├── ChatGPT_UE_Plugin.h
+│       │   ├── BlueprintReader.h
+│       │   ├── BlueprintModifier.h
+│       │   ├── ChatGPT_UE_PluginCommands.h
+│       │   ├── ChatGPT_UE_PluginSettings.h
+│       │   └── Api.h
+│       │
+│       ├── Private
+│       │   ├── ChatGPT_UE_Plugin.cpp
+│       │   ├── BlueprintReader.cpp
+│       │   ├── BlueprintModifier.cpp
+│       │   ├── ChatGPT_UE_PluginCommands.cpp
+│       │   ├── ChatGPT_UE_PluginSettings.cpp
+│       │   ├── Api.cpp
+│       │   └── Log.cpp
+│       │
+│       └── Tests
+│           ├── BlueprintReaderTest.cpp
+│           ├── BlueprintModifierTest.cpp
+│           └── ApiTest.cpp
+│
+└── Resources
+    └── ChatGPT_UE_PluginStyle.png
 
 ## For BlueprintUe.h 
 Here's a brief explanation of what this code does:
