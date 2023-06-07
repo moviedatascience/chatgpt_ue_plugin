@@ -14,7 +14,7 @@ class FBlueprintReader : public IModuleInterface: This declares a new class FBlu
 
    TSharedRef<class SDockTab> OnSpawnPluginTab(const class FSpawnTabArgs& SpawnTabArgs): This function is used to create a new tab in Unreal Engine's editor when the plugin is activated.
 
-    TSharedPtr<class FUICommandList> PluginCommands: This data member is used to store the plugin's commands. These commands can be used to interact with the plugin in Unreal Engine's editor.
+   TSharedPtr<class FUICommandList> PluginCommands: This data member is used to store the plugin's commands. These commands can be used to interact with the plugin in Unreal Engine's editor.
 
 Please note that this is a basic design and might need to be adjusted based on your specific needs and the actual implementation of the BlueprintReader class.
 
